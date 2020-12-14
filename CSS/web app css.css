@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
+.form{
+	position: absolute;
+	top: calc(50% - 190px);
+	left: calc(50% - 150px);
+	height: 150px;
+	width: 350px;
+	padding: 10px;
+    z-index: 2;
+    font-size: larger;
+    color: white;
+}
+
+body{
+    background-image: url("https://images.unsplash.com/photo-1527607976958-7cbb4a6d0131?ixlib=rb-1.2.1&w=1000&q=80");
+    background-repeat: repeat;
+    font-family: 'Crimson Text', serif;
+}
+
+.button{
+    padding: 10px;
+    font-family: 'Crimson Text', serif;
+
+}
