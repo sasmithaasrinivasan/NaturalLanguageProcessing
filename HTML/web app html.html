@@ -1,0 +1,67 @@
+
+
+
+<html>
+    <head> 
+      
+        <meta  charset="utf-8"/>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
+.form{
+	position: absolute;
+	top: calc(50% - 190px);
+	left: calc(50% - 150px);
+	height: 150px;
+	width: 350px;
+	padding: 10px;
+    z-index: 2;
+    font-size: larger;
+    color: white;
+}
+
+body{
+    background-image: url("https://images.unsplash.com/photo-1527607976958-7cbb4a6d0131?ixlib=rb-1.2.1&w=1000&q=80");
+    background-repeat: repeat;
+    font-family: 'Crimson Text', serif;
+}
+
+.button{
+    padding: 10px;
+    font-family: 'Crimson Text', serif;
+
+}
+
+
+
+
+        </style>
+    </head>
+<body>
+
+
+
+<div class="form">
+  <h1>Natural Language Processing</h1>
+
+<form action="http://54.159.230.106:5200/abc" method="GET" accept-charset="utf8">
+  <p>Please select one option:</p>
+  <input type="radio" id="sentiment" name="nlp" value="sentiment">
+  <label for="sentiment">Sentiment Analysis</label><br>
+  <input type="radio" id="syntax" name="nlp" value="syntax">
+  <label for="syntax">Syntax Analysis</label><br>
+  <input type="radio" id="entity" name="nlp" value="entity">
+  <label for="entity">Entity Extraction</label>
+  <br> <br> 
+  <label for="input">Enter Text:</label>
+  <br>
+  <input type="text" id="input" name="input"><br><br> 
+  <input type="submit" class="button">
+
+</form>
+
+  
+</form>
+
+</body>
+</html>
